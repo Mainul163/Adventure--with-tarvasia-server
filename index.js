@@ -11,7 +11,7 @@ const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster
 const app = express()
 const port = process.env.PORT|| 5000
 
-// const pass='sVTd1KFcW6DP2AiC'
+
 app.use(express.json())
 app.use(cors())
 app.use(fileUpload());
